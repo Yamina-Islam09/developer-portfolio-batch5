@@ -12,6 +12,10 @@ h1 {
 }
 
 section {
+    margin-bottom: 100px;
+}
+
+.flexible-content {
     display: flex;
 }
 
@@ -36,4 +40,45 @@ section {
 .top-banner {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.dream-big {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiment-item {
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.border-left-orange {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+.border-left-blue {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
